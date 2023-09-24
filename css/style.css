@@ -15,6 +15,10 @@
     font-family: inter-medium;
     src: url(../assets/tipografias/Inter-Medium.ttf);
 }
+@font-face{
+    font-family: inter-black;
+    src: url(../assets/tipografias/Inter-Black.ttf);
+}
 header{
     display: flex;
     background-color: black;
@@ -35,6 +39,7 @@ body{
 }
 h2{
     text-align: center;
+    font-family: inter-black;
 }
 .primera-section{
     text-align: center;
@@ -231,8 +236,13 @@ footer{
         }
 }
 @media(max-width: 375px){
+    header{
+        background-image: url(https://i.ibb.co/3MYQdJ4/blink-forever-mobile.png);
+    }
     .primera-section{
-        background-image: url(https://i.ibb.co/bd8mg7G/blink-forever-blackpink-mobile-1.png);
+        background-image: url(https://i.ibb.co/j5fSxLN/blink-forever-blackpink-mobile-2.png);
+        width: 100%;
+        height: 11.6875rem;
     }
     .primera-section-jisoo{
         background-image: url(https://i.ibb.co/dQ4ZrzY/blink-forever-jisoo0.png);
