@@ -9,7 +9,7 @@
 }
 @font-face {
     font-family: inter;
-    src: url(../assets/tipografias/Inter-ExtraBold.ttf);
+    src: url(../assets/tipografias/Inter-Regular.ttf);
 }
 @font-face {
     font-family: inter-medium;
@@ -18,6 +18,10 @@
 @font-face{
     font-family: inter-black;
     src: url(../assets/tipografias/Inter-Black.ttf);
+}
+@font-face {
+    font-family: inter-extra-bold;
+    src: url(../assets/tipografias/Inter-ExtraBold.ttf);
 }
 header{
     display: flex;
@@ -37,6 +41,9 @@ header{
 body{
     background-color: #f4a7ba;
 }
+h1{
+    font-family: inter-extra-bold;
+}
 h2{
     text-align: center;
     font-family: inter-black;
@@ -51,7 +58,7 @@ h2{
     height: 50.6875rem;
 }
 .primera-section-jisoo{
-    background-image: url(../assets/img/blink-forever-jisoo0.png);
+    background-image: url(https://i.ibb.co/dQ4ZrzY/blink-forever-jisoo0.png);
     width: 100%;
     height: 50.625rem;
     font-family: inter;
@@ -77,12 +84,12 @@ h2{
 .links-redes-sociales{
     background-color: black;
     text-align: center;
+    color: #f4a7ba;
 }
 .miembros{
     display: flex;
     width: 100%;
     height: 21.875rem;
-    
     flex-flow: row wrap;
     justify-content: space-around;
     border-top: #f4a7ba;
@@ -113,8 +120,8 @@ h2{
     display: grid;
     width: 100vw;
     height: 100vh;
-    grid-template-columns: repeat(3,422px);
-    grid-template-rows: repeat(6,265px);
+    grid-template-columns: repeat(4,21.875rem);
+    grid-template-rows: repeat(5,14.75rem);
 }
 .grid-covers-rose{
     display: grid;
