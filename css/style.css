@@ -137,8 +137,8 @@ h3{
 }
 .grid-dpv-lisa{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(3,16.5625rem);
+    grid-template-columns: repeat(3,26.375rem);
+    grid-template-rows: repeat(3,16.75rem);
 }
 .flex-solo{
     display: flex;
