@@ -132,8 +132,8 @@ h3{
 }
 .grid-covers-rose{
     display: grid;
-    grid-template-columns: repeat(3,1fr);
-    grid-template-rows: repeat(3,16.5625rem);
+    grid-template-columns: repeat(3,26.375rem);
+    grid-template-rows: repeat(2,16.75rem);
 }
 .grid-dpv-lisa{
     display: grid;
@@ -143,9 +143,13 @@ h3{
 .flex-solo{
     display: flex;
     width: 100%;
-
 }
 .flex-dpv-mv{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.flex-colab-rose{
     display: flex;
     width: 100%;
     justify-content: center;
