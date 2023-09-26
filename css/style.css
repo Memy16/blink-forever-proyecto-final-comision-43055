@@ -156,6 +156,12 @@ h3{
     grid-template-rows: repeat(2, 12.5rem);
     justify-content: center;
 }
+.grid-colab-jennie{
+    display: grid;
+    grid-template-columns: repeat(2, 32.8125rem);
+    grid-template-rows: repeat(4, 12.5rem);
+    justify-content: center;
+}
 .flex-colab-rose{
     display: flex;
     width: 100%;
