@@ -150,6 +150,12 @@ h3{
     grid-template-rows: repeat(2, 19.6875rem) ;
     justify-content: center;
 }
+.grid-colaboraciones-lisa{
+    display: grid;
+    grid-template-columns: repeat(2, 32.8125rem);
+    grid-template-rows: repeat(2, 12.5rem);
+    justify-content: center;
+}
 .flex-colab-rose{
     display: flex;
     width: 100%;
