@@ -52,6 +52,9 @@ h3{
     text-align: center;
     font-family: inter-black;
 }
+.negrita{
+    font-weight: bold;
+}
 .primera-section{
     text-align: center;
     color: #000;
@@ -167,8 +170,14 @@ h3{
     width: 100%;
     justify-content: center;
 }
-.biografia{
+.info{
     font-family: poppins;
+}
+.biografia{
+    font-family: inter;
+}
+.pelis{
+    text-align: center;
 }
 
 .section-cambiar-perfil{
@@ -272,6 +281,41 @@ footer{
         }
 }
 @media(max-width: 375px){
+    /*.respnav input[type="checkbox"], .respnav .fa-bars, .respnav .fa-times {
+        position: absolute;
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+        right: 0;
+        top: 0;
+        width: 48px;
+        height: 48px;
+    }
+    .respnav .fa-bars, .respnav .fa-times{
+        font-size: 48px;
+        pointer-events: none;
+    }
+    .respnav input[type="checkbox"]{
+        opacity: 0;
+    }
+    .respnav{
+        color: #f4a7ba;
+        position: relative;
+        background: #000;
+        min-height: 48px;
+    }
+    .respnav nav{
+        display: none;
+    }
+    .respnav input:checked ~ nav{
+        display: block;
+    }
+    .respnav input:checked ~ .fa-bars{
+        display: none;
+    }
+    .respnav input:not(:checked) ~ .fa-times{
+        display: none;
+    }*/
     header{
         background-image: url(https://i.ibb.co/3MYQdJ4/blink-forever-mobile.png);
     }
