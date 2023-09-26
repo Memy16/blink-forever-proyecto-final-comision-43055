@@ -144,9 +144,10 @@ h3{
     display: flex;
     width: 100%;
 }
-.flex-dpv-mv{
-    display: flex;
-    width: 100%;
+.grid-dpv-mv{
+    display: grid;
+    grid-template-columns: repeat(2, 35.3125rem);
+    grid-template-rows: repeat(2, 19.6875rem) ;
     justify-content: center;
 }
 .flex-colab-rose{
