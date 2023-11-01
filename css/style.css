@@ -156,7 +156,7 @@ h3{
 .grid-dpv-mv{
     display: grid;
     grid-template-columns: repeat(2, 35.3125rem);
-    grid-template-rows: repeat(2, 19.6875rem) ;
+    grid-template-rows: repeat(2, 20rem) ;
     justify-content: center;
 }
 .grid-colaboraciones-lisa{
